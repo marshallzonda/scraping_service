@@ -1,0 +1,60 @@
+[
+{
+  "model": "scraping.city",
+  "pk": 1,
+  "fields": {
+    "name": "\u041a\u0438\u0435\u0432",
+    "slug": "kiev"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 2,
+  "fields": {
+    "name": "\u041e\u0434\u0435\u0441\u0441\u0430",
+    "slug": "odessa"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 2,
+  "fields": {
+    "name": "JavaScript",
+    "slug": "javascript"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 1,
+  "fields": {
+    "url": "https://rabota.ua/company52044/vacancy8479627",
+    "title": "Senior Software Engineer (Java or Python)",
+    "company": "American",
+    "description": "We solve retail supply chain problems by cutting through inefficiency with innovation and automation. At SPS we empower retailers, suppliers, distributors, grocers, and logistics partners to work better together with our people, our process, and our tech products.\r\n\r\nAs a Senior Software Engineer with the Core Data Engineering team, you will be design, develop, document, test, and debug existing and new software for our engineering development platform. This Senior Software Engineer will serve as a technical expert on development projects with a group of talented and skilled engineers. This position will have the opportunity to work with the SPS Core Data engineering teams in Ukraine and the US",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-06-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 2,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4290626/",
+    "title": "Middle JavaScript/React Developer",
+    "company": "Sigma Software",
+    "description": "Are you an experienced professional with an understanding of a front part of a web-application? Do you know how to solve business problems and take responsibility for the result? Are you ready to scale services, find bottlenecks, solve puzzles, and work without micromanagement and direct control?\r\n\r\nLooks like you are at the right time at the right place.",
+    "city": 2,
+    "language": 2,
+    "timestamp": "2021-06-20"
+  }
+}
+]
